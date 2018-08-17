@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #E0E0E0;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIControllers.SettingsController">
+   <children>
+      <ImageView fx:id="backToMainButton" fitHeight="61.0" fitWidth="32.0" layoutX="14.0" layoutY="3.0" onMousePressed="#backToMain" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/IntelliJ%20IDEA/Kalkulacka/res/Back_Arrow_64px.png" />
+         </image></ImageView>
+      <JFXButton buttonType="RAISED" layoutX="75.0" layoutY="125.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openITCalc" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #D81B60; -fx-background-radius: 5em;" text="IT Calculator" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="75.0" layoutY="80.0" onAction="#openChildrenCalc" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #D81B60; -fx-background-radius: 5em;" text="Children Calculator" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="75.0" layoutY="35.0" onAction="#openRegularCalc" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #D81B60; -fx-background-radius: 5em;" text="Regular Calculator" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="75.0" layoutY="175.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#OpenDateCalc" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #D81B60; -fx-background-radius: 5em;" text="Date Calculator" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="75.0" layoutY="220.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openConverter" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #D81B60; -fx-background-radius: 5em;" text="Converter" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="75.0" layoutY="265.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #D81B60; -fx-background-radius: 5em;" text="Empty" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
